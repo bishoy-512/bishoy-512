@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **bishoy.amgad71@gmail.com**
 
-- 📄 Know about my experiences [https://bishoy-amgad-cv.tiiny.site](https://bishoy-amgad-cv.tiiny.site)
+- 📄 Know about my experiences [https://flowcv.com/resume/v3mf2stospj7]
 
 - ⚡ Fun fact **I dream about code every day**
 
