@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **bishoy.amgad71@gmail.com**
 
-- 📄 Know about my experiences [https://flowcv.com/resume/v3mf2stospj7]
+- 📄 Know about my experiences [CV](https://flowcv.com/resume/v3mf2stospj7)
 
 - ⚡ Fun fact **I dream about neural networks every day**
 
