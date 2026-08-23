@@ -1,4 +1,4 @@
-name: Generate GitHub Stats
+name: Update README Cards
 
 on:
   schedule:
@@ -9,58 +9,64 @@ permissions:
   contents: write
 
 jobs:
-  stats:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - name: Generate stats cards
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate Stats
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github
           path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=tokyonight&hide_border=true
           path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate project cards
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate Multi-Modal RAG Card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=${{ github.repository_owner }}&repo=Mult-Modal-RAG&theme=tokyonight&hide_border=true
           path: profile/multimodal-rag.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate project cards
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate MINI-RAG Card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=${{ github.repository_owner }}&repo=MINI-RAG-Journey&theme=tokyonight&hide_border=true
           path: profile/mini-rag.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate project cards
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate OS Card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=${{ github.repository_owner }}&repo=OS---Project&theme=tokyonight&hide_border=true
           path: profile/os-project.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate project cards
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate Elections Card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=${{ github.repository_owner }}&repo=Elections-Voting-System&theme=tokyonight&hide_border=true
           path: profile/elections.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit cards
+      - name: Commit generated cards
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update GitHub profile cards" || exit 0
+          git commit -m "Update README cards" || exit 0
           git push
