@@ -107,21 +107,27 @@
 
 <!-- ======================= PROJECTS ======================= -->
 
-🚀 Featured Projects
- 
+<h2 align="center">🚀 Featured Projects</h2>
 
- 
+<p align="center">
+  <a href="https://github.com/bishoy-512/Mult-Modal-RAG">
+    <img src="./profile/multimodal-rag.svg" alt="Multi-Modal RAG" />
+  </a>
 
-📊 GitHub Analytics
-GitHub Stats
+  <a href="https://github.com/bishoy-512/MINI-RAG-Journey">
+    <img src="./profile/mini-rag.svg" alt="MINI-RAG Journey" />
+  </a>
+</p>
 
-Top Languages
+<p align="center">
+  <a href="https://github.com/bishoy-512/OS---Project">
+    <img src="./profile/os-project.svg" alt="OS Project" />
+  </a>
 
-🔥 GitHub Streak
-GitHub Streak
-
-🏆 GitHub Trophies
-GitHub Trophies
+  <a href="https://github.com/bishoy-512/Elections-Voting-System">
+    <img src="./profile/elections.svg" alt="Elections Voting System" />
+  </a>
+</p>
 
 
 <!-- ======================= GITHUB STATS ======================= -->
@@ -129,17 +135,8 @@ GitHub Trophies
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=bishoy-512&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github"
-    height="180"
-    alt="GitHub Stats"
-  />
-
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=bishoy-512&layout=compact&hide_border=true&theme=tokyonight"
-    height="180"
-    alt="Top Languages"
-  />
+  <img src="./profile/stats.svg" height="180" alt="GitHub Stats" />
+  <img src="./profile/top-langs.svg" height="180" alt="Top Languages" />
 </p>
 
 <!-- ======================= STREAK ======================= -->
