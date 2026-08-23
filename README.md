@@ -107,27 +107,21 @@
 
 <!-- ======================= PROJECTS ======================= -->
 
-<h2 align="center">🚀 Featured Projects</h2>
+🚀 Featured Projects
+ 
 
-<p align="center">
-  <a href="https://github.com/bishoy-512/Mult-Modal-RAG">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bishoy-512&repo=Mult-Modal-RAG&theme=tokyonight&hide_border=true" />
-  </a>
+ 
 
-  <a href="https://github.com/bishoy-512/MINI-RAG-Journey">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bishoy-512&repo=MINI-RAG-Journey&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
+📊 GitHub Analytics
+GitHub Stats
 
-<p align="center">
-  <a href="https://github.com/bishoy-512/OS---Project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bishoy-512&repo=OS---Project&theme=tokyonight&hide_border=true" />
-  </a>
+Top Languages
 
-  <a href="https://github.com/bishoy-512/Elections-Voting-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bishoy-512&repo=Elections-Voting-System&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
+🔥 GitHub Streak
+GitHub Streak
+
+🏆 GitHub Trophies
+GitHub Trophies
 
 
 <!-- ======================= GITHUB STATS ======================= -->
@@ -147,7 +141,6 @@
     alt="Top Languages"
   />
 </p>
-
 
 <!-- ======================= STREAK ======================= -->
 
