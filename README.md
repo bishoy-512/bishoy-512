@@ -111,43 +111,31 @@
 
 <p align="center">
   <a href="https://github.com/bishoy-512/Mult-Modal-RAG">
-    <img src="./profile/multimodal-rag.svg" alt="Multi-Modal RAG" />
+    <img src="profile/multimodal-rag.svg" alt="Multi-Modal RAG" width="420"/>
   </a>
 
   <a href="https://github.com/bishoy-512/MINI-RAG-Journey">
-    <img src="./profile/mini-rag.svg" alt="MINI-RAG Journey" />
+    <img src="profile/mini-rag.svg" alt="MINI-RAG Journey" width="420"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/bishoy-512/OS---Project">
-    <img src="./profile/os-project.svg" alt="OS Project" />
+    <img src="profile/os-project.svg" alt="OS Project" width="420"/>
   </a>
 
   <a href="https://github.com/bishoy-512/Elections-Voting-System">
-    <img src="./profile/elections.svg" alt="Elections Voting System" />
+    <img src="profile/elections.svg" alt="Elections Voting System" width="420"/>
   </a>
 </p>
-
 
 <!-- ======================= GITHUB STATS ======================= -->
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
-  <img src="./profile/stats.svg" height="180" alt="GitHub Stats" />
-  <img src="./profile/top-langs.svg" height="180" alt="Top Languages" />
-</p>
-
-<!-- ======================= STREAK ======================= -->
-
-<h2 align="center">🔥 GitHub Streak</h2>
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=bishoy-512&theme=tokyonight&hide_border=true"
-    alt="GitHub Streak"
-  />
+  <img src="profile/stats.svg" alt="GitHub Stats" width="420"/>
+  <img src="profile/top-langs.svg" alt="Top Languages" width="420"/>
 </p>
 
 
@@ -157,8 +145,9 @@
 
 <p align="center">
   <img
-    src="https://github-profile-trophy.vercel.app/?username=bishoy-512&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1&column=7"
+    src="profile/trophies.svg"
     alt="GitHub Trophies"
+    width="850"
   />
 </p>
 
