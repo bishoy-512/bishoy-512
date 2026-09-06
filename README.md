@@ -198,9 +198,8 @@
 
 <p align="center">
   <img
-    src="./profile/activity.svg"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=bishoy-512&theme=tokyo-night&hide_border=true&area=true"
     alt="GitHub Activity Graph"
-    width="850"
   />
 </p>
 
