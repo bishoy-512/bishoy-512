@@ -192,18 +192,17 @@
   />
 </p>
 
-
 <!-- ======================= ACTIVITY ======================= -->
 
 <h2 align="center">📈 Contribution Activity</h2>
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=bishoy-512&theme=tokyo-night&hide_border=true&area=true"
+    src="./profile/activity.svg"
     alt="GitHub Activity Graph"
+    width="850"
   />
 </p>
-
 
 <!-- ======================= CONTRIBUTION SNAKE ======================= -->
 
